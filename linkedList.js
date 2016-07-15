@@ -15,7 +15,7 @@ function LinkedList() {
     let node = new Node(element);
     let current;
 
-    if(!this.head) {
+    if(!head) {
       head = node;
     } else {
       current = head;
